@@ -1,0 +1,14 @@
+{
+  "name": "@vitalsync/sdk",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "generate": "bun run scripts/generate.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.29.0",
+    "typescript": "^5.7.2"
+  }
+}
